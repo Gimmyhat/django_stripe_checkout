@@ -40,14 +40,14 @@ class CreateCheckoutSessionView(View):
         try:
             checkout_session = stripe.checkout.Session.create(
                 success_url=domain_url + 'success?session_id={CHECKOUT_SESSION_ID}',
-                cancel_url=domain_url + 'cancelled/',
+                cancel_url=domain_url + 'cancel/',
                 payment_method_types=['card'],
                 mode='payment',
                 line_items=[
                     {
                         'price_data': {
                             'currency': 'usd',
-                            'unit_amount': item.price,
+                            'unit_amount': item.get_price_in_cents,
                             'product_data': {
                                 'name': item.name,
                                 'description': item.description,

@@ -1,11 +1,29 @@
 [
   {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$zblTDNxhncTZEL2cZsiQC7$BNvp7Kj/WlCXdD1hJOc1xIFaTHe0XT21L2p3jdb4sNQ=",
+      "last_login": "2023-02-11T06:12:09.458Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.ru",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-02-11T03:15:20.982Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
     "model": "payments.item",
     "pk": 1,
     "fields": {
       "name": "Smartphone",
       "description": "Latest model smartphone with high-end features",
-      "price": 80000
+      "price": 800
     }
   },
   {
@@ -14,7 +32,7 @@
     "fields": {
       "name": "Laptop",
       "description": "High-performance laptop with a sleek design",
-      "price": 150000
+      "price": 1500
     }
   },
   {
@@ -23,7 +41,7 @@
     "fields": {
       "name": "Tablet",
       "description": "Lightweight tablet with a long-lasting battery",
-      "price": 40000
+      "price": 400
     }
   },
   {
@@ -32,7 +50,7 @@
     "fields": {
       "name": "Smartwatch",
       "description": "Stylish and functional smartwatch with fitness tracking",
-      "price": 30000
+      "price": 300
     }
   },
   {
@@ -41,7 +59,7 @@
     "fields": {
       "name": "Wireless Earbuds",
       "description": "Comfortable wireless earbuds with high-quality sound",
-      "price": 15000
+      "price": 150
     }
   },
   {
@@ -50,7 +68,7 @@
     "fields": {
       "name": "Virtual Reality Headset",
       "description": "Immersive virtual reality headset for gaming and entertainment",
-      "price": 50000
+      "price": 500
     }
   },
   {
@@ -59,7 +77,7 @@
     "fields": {
       "name": "Smart Home Hub",
       "description": "Control all your smart home devices from one central hub",
-      "price": 20000
+      "price": 200
     }
   },
   {
@@ -68,7 +86,7 @@
     "fields": {
       "name": "Drone",
       "description": "High-tech drone with advanced camera features",
-      "price": 100000
+      "price": 1000
     }
   },
   {
@@ -77,7 +95,7 @@
     "fields": {
       "name": "Action Camera",
       "description": "Rugged action camera for extreme sports and adventures",
-      "price": 40000
+      "price": 400
     }
   },
   {
@@ -86,7 +104,7 @@
     "fields": {
       "name": "Smart LED TV",
       "description": "Ultra HD smart TV with built-in streaming services",
-      "price": 150000
+      "price": 1500
     }
   }
 ]
