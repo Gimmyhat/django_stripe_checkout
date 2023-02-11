@@ -3,7 +3,7 @@
 Предварительно, необходимо:
 1. зарегистрироваться и авторизоваться на https://stripe.com <br><br>
 2. скопировать `Publishable key` и `Secret Key`(*'developers' > 'API Keys'*) <br><br>
-3. git clone https://github.com/Gimmyhat/django_stripe_checkout.git <br><br>
+3. `git clone https://github.com/Gimmyhat/django_stripe_checkout.git` <br><br>
 4. в корневой папке проекта создать файл .env и заполнить его следующими данными:<br><br>
    - SECRET_KEY=`'django secret key'`
    - STRIPE_PUBLISHABLE_KEY=`'Publishable key'`
