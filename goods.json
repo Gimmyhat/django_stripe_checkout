@@ -1,0 +1,92 @@
+[
+  {
+    "model": "payments.item",
+    "pk": 1,
+    "fields": {
+      "name": "Smartphone",
+      "description": "Latest model smartphone with high-end features",
+      "price": 80000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 2,
+    "fields": {
+      "name": "Laptop",
+      "description": "High-performance laptop with a sleek design",
+      "price": 150000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 3,
+    "fields": {
+      "name": "Tablet",
+      "description": "Lightweight tablet with a long-lasting battery",
+      "price": 40000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 4,
+    "fields": {
+      "name": "Smartwatch",
+      "description": "Stylish and functional smartwatch with fitness tracking",
+      "price": 30000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 5,
+    "fields": {
+      "name": "Wireless Earbuds",
+      "description": "Comfortable wireless earbuds with high-quality sound",
+      "price": 15000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 6,
+    "fields": {
+      "name": "Virtual Reality Headset",
+      "description": "Immersive virtual reality headset for gaming and entertainment",
+      "price": 50000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 7,
+    "fields": {
+      "name": "Smart Home Hub",
+      "description": "Control all your smart home devices from one central hub",
+      "price": 20000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 8,
+    "fields": {
+      "name": "Drone",
+      "description": "High-tech drone with advanced camera features",
+      "price": 100000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 9,
+    "fields": {
+      "name": "Action Camera",
+      "description": "Rugged action camera for extreme sports and adventures",
+      "price": 40000
+    }
+  },
+  {
+    "model": "payments.item",
+    "pk": 10,
+    "fields": {
+      "name": "Smart LED TV",
+      "description": "Ultra HD smart TV with built-in streaming services",
+      "price": 150000
+    }
+  }
+]
