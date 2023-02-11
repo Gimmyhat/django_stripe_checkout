@@ -10,7 +10,7 @@
    - STRIPE_SECRET_KEY=`'Secret key'` <br><br>
 5. Запустить docker-compose:
 ```sh
-docker-compose up --build
+docker-compose up --build -d
 ```
 
 Логин/пароль от админки `admin/admin` 
